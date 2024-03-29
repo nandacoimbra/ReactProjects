@@ -1,0 +1,22 @@
+
+.home-body{
+    padding: 0 2% 2% 2%;
+}
+
+.home-body h1{
+    margin-bottom: 0;
+}
+.text-img{
+    display: flex;
+    gap: 4%;
+    
+}
+
+.text-img img{
+    width: 550px;
+    height: auto;
+}
+
+.text{
+    text-align: justify;
+}

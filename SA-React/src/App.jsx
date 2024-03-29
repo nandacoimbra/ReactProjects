@@ -7,14 +7,15 @@ import Missao from './components/Missao';
 import Historia from './components/Historia'
 import Produtos from './components/Produtos'
 import Contato from './components/Contato'
+import Footer from './components/Footer';
 
 
 export default function App() {
 
 
   return (
-    <>
-      <p>teste</p>
+    <div className='corpo'>
+      
       <Header />
       <main>
         <Routes>
@@ -25,8 +26,8 @@ export default function App() {
           <Route path='/contatos' element={<Contato name='Contato'></Contato>} />
         </Routes>
       </main>
-
-    </>
+      <Footer/>
+    </div>
   )
 }
 
