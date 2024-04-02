@@ -2,6 +2,8 @@
     background: var(--gray-800);
     border-radius: 8px;
     padding: 2.5rem;
+    /* display: flex;
+    flex-direction: column; */
 } 
 
 .posts + .posts{
@@ -12,6 +14,7 @@
     line-height: 1.6;
     color: var(--gray-300);
     margin-top: 1.5rem;
+   
 }
 
 .content p{
@@ -87,4 +90,21 @@
     color: var(--gray-100);
     line-height: 1.6;
     margin-top: 1rem;
+}
+
+.commentsForm button{
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.commentsForm div{
+    visibility: hidden;
+    max-height: 0;
+
 }
