@@ -4,6 +4,7 @@ import styles from './components/App.module.css'
 import { Header } from './components/Header.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import { Posts } from './components/Posts.jsx'
+import Comments from './components/Comments.jsx'
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
             />
             <Posts 
             />
+
+            <Comments/>
           </main>
         </div>
       </div>
