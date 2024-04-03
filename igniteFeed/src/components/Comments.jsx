@@ -1,10 +1,10 @@
 import { ThumbsUp, Trash } from 'phosphor-react'
 import styles from './Comments.module.css'
 
-export default function Comments() {
+export function Comments() {
     return (
         <div className={styles.comments}>
-            <img src="https://unsplash.com/pt-br/s/fotografias/random-people" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Profile-720.png" alt="" />
 
             <div className={styles.commentsBox}>
                 <div className={styles.commentsContent}>
@@ -25,7 +25,7 @@ export default function Comments() {
                 <footer>
                     <button>
                         <ThumbsUp />
-                        Gostei
+                        Gostei <span>20</span>
                     </button>
                 </footer>
             </div>

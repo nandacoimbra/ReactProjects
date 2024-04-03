@@ -108,3 +108,16 @@
     max-height: 0;
 
 }
+
+.commentsForm:focus-within div{
+    visibility: visible;
+    max-height: none;
+}
+
+.commentsForm button:hover{
+    background: var(--green-300);
+}
+
+.commentsList{
+    margin-top: 2rem;
+}
