@@ -13,10 +13,10 @@ export function Comments() {
                             <strong>Técnico do Projeto</strong>
                             <time title='02/04/2024' dateTime='01/04/2024'>Publicado a 1 hora</time>
 
-                            <div>
-                                <button>Excluir Comentário</button>
-                                <Trash />
-                            </div>
+                        </div>
+
+                        <div className={styles.lixeira}>
+                            <a href=""><Trash /></a>
                         </div>
                     </header>
                     <p>Muito bom. Parabéns pela realização do curso!</p>
@@ -25,7 +25,7 @@ export function Comments() {
                 <footer>
                     <button>
                         <ThumbsUp />
-                        Gostei <span>20</span>
+                        Gostei <span>&#8226; 20</span>
                     </button>
                 </footer>
             </div>

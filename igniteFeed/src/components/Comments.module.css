@@ -12,6 +12,10 @@
     border-radius: 8px;
 }
 
+.comments footer button span span{
+    content: '\2022';
+}
+
 .commentsBox{
     flex: 1;
 }
@@ -56,9 +60,14 @@
     cursor: pointer;
 
 }
-.commentsContent header button:hover{
+
+.lixeira a{
+    color: white;
+}
+.lixeira a:hover{
    color: red;
 }
+
 
 /* 
 .authorAndTime{
